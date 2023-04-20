@@ -36,6 +36,59 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
+
+/*--===========================================STICKY SIDE BAR START ===========================================================*/
+.sticky-sidebar.social-links {
+  border-radius: 0 15px 15px 0;
+  width: 50px;
+  position: fixed;
+  top: 62%;
+  z-index: 999999;
+}
+.social_sticky_wrap {
+  padding: 10px;
+}
+.vertical_links {
+  margin-top: 10px;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+ul.vertical_links li {
+  margin-bottom: 10px !important;
+}
+a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+img, svg {
+  vertical-align: middle;
+  
+}
+.fcfs-form, .sticky-sidebar.social-links {
+  background: no-repeat padding-box #fff;
+  box-shadow: 0 3px 6px #00000029;
+}
+.d-md-block {
+  display: block!important;
+}
+
+/*ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}*7
+
+/*--===========================================STICKY SIDE BAR START END===========================================================*/
+
+
 #preloader {
   position: fixed;
   top: 0;
